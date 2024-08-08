@@ -74,7 +74,7 @@ input[type=submit], input[type=reset]{
 </tr>
 <!-------------------------- Mobile Number ------------------------------------->
 <tr>
-<th>Mobile Number</th>
+<th id="Myth">Mobile Number</th>
 <td>
 <input type="text" name="MobileNumber" maxlength="10" placeholder="7207302263"/>
 (10 Digits Allowed)
@@ -82,7 +82,7 @@ input[type=submit], input[type=reset]{
 </tr>
 <!---------------------- Gender ------------------------------------->
 <tr>
-<th>Gender</th>
+<th id="Myth">Gender</th>
 <td>
 <input type="radio" name="Gender" value="Male" />
 Male
@@ -92,7 +92,7 @@ Female
 </tr>
 <!--------------------------Date Of Birth----------------------------------->
 <tr>
-<th>Date of Birth(DOB)</th>
+<th id="Myth">Date of Birth(DOB)</th>
 <td>
 <select name="BirthDay" id="Birthday_Day">
 <option value="-1">Day:</option>
@@ -203,38 +203,38 @@ Female
 </tr>
 <!------------------------- Address ---------------------------------->
 <tr>
-<th>Address<br /><br /><br /></th>
+<th id="Myth">Address<br /><br /><br /></th>
 <td><textarea name="Address" rows="10" cols="50"></textarea></td>
 </tr>
 <!-------------------------- City ------------------------------------->
 <tr>
-<th>City</th>
+<th id="Myth">City</th>
 <td><input type="text" name="City" maxlength="50" placeholder="Anantapuramu"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!----- -------------------- Pin Code-------------------------------------->
 <tr>
-<th>Pin Code</th>
+<th id="Myth">Pin Code</th>
 <td><input type="Number" name="PinCode" maxlength="6" placeholder="515001"/>
 (Max 6 Numbers Allowed)
 </td>
 </tr>
 <!---------------------------- State ----------------------------------->
 <tr>
-<th>State</th>
+<th id="Myth">State</th>
 <td><input type="text" name="State" maxlength="50" placeholder="Andhra Pradesh"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!------------------------------ Country --------------------------------->
 <tr>
-<th>Country</th>
+<th id="Myth">Country</th>
 <td><input type="text" name="Country" placeholder="India" /></td>
 </tr>
 <!------------------------- Hobbies -------------------------------------->
 <tr>
-<th>Hobbies <br /><br /><br /></th>
+<th id="Myth">Hobbies <br /><br /><br /></th>
 <td>
 <input type="checkbox" name="HobbyDrawing" value="Drawing" />
 Drawing
@@ -253,7 +253,7 @@ Others
 </tr>
 <!-----------------------Qualification---------------------------------------->
 <tr>
-<th>Qualification <br /><br /><br /></th>
+<th id="Myth">Qualification <br /><br /><br /></th>
 <td>
 <br/>
 <input type="checkbox" name="HighSchool" value="High School" />
@@ -270,7 +270,7 @@ Phd
 </tr>
 <!---------------------------- Courses ----------------------------------->
 <tr>
-<th>Courses<br />Applied For</th>
+<th id="Myth">Courses<br />Applied For</th>
 <td>
 <input type="radio" name="CourseBCA" value="BCA">
 BCA(Bachelor of Computer Applications)<br>
