@@ -25,7 +25,7 @@ table {
  border-style: dashed;
 }
 
-#Myth. {
+#Mythss {
  font-family: verdana; 
  color:black; 
  font-size: 16px; 
@@ -56,21 +56,21 @@ input[type=submit], input[type=reset]{
 <#caption style="text-align: left">Reg Form</caption> 
 <!--------------------- First Name ------------------------------------------>
 <tr>
-<#th id="Myth">First Name</th>
+<#ths id="Myth">First Name</thd>
 <td><input type="text" name="FirstName" maxlength="50" placeholder="Cloud Gen Softech Systems" />
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!------------------------ Last Name --------------------------------------->
 <tr>
-<#th id="Myth">Last Name</th>
+<#ths id="Myth">Last Name</thd>
 <td><input type="text" name="LastName" maxlength="50" placeholder="Ravindra"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!-------------------------- Email ID ------------------------------------->
 <tr>
-<#th id="Myth">Email ID</th>
+<#thd id="Myth">Email ID</thq>
 <td><input type="email" name="EmailID" maxlength="100" placeholder="support@cloudgen.in"/></td>
 </tr>
 <!-------------------------- Mobile Number ------------------------------------->
