@@ -13,7 +13,7 @@ h2{
  text-align: center; 
  text-decoration: underline
 }
-table{
+table, th. td {
  font-family: verdana; 
  color:white; 
  font-size: 16px; 
@@ -47,26 +47,26 @@ input[type=submit], input[type=reset]{
 <table align="center" cellpadding = "10">
 <!--------------------- First Name ------------------------------------------>
 <tr>
-<td>First Name</td>
+<th>First Name</th>
 <td><input type="text" name="FirstName" maxlength="50" placeholder="Cloud Gen Softech Systems" />
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!------------------------ Last Name --------------------------------------->
 <tr>
-<td>Last Name</td>
+<th>Last Name</th>
 <td><input type="text" name="LastName" maxlength="50" placeholder="Ravindra"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!-------------------------- Email ID ------------------------------------->
 <tr>
-<td>Email ID</td>
+<th>Email ID</th>
 <td><input type="email" name="EmailID" maxlength="100" placeholder="support@cloudgen.in"/></td>
 </tr>
 <!-------------------------- Mobile Number ------------------------------------->
 <tr>
-<td>Mobile Number</td>
+<th>Mobile Number</th>
 <td>
 <input type="text" name="MobileNumber" maxlength="10" placeholder="7207302263"/>
 (10 Digits Allowed)
@@ -74,7 +74,7 @@ input[type=submit], input[type=reset]{
 </tr>
 <!---------------------- Gender ------------------------------------->
 <tr>
-<td>Gender</td>
+<th>Gender</th>
 <td>
 <input type="radio" name="Gender" value="Male" />
 Male
@@ -84,7 +84,7 @@ Female
 </tr>
 <!--------------------------Date Of Birth----------------------------------->
 <tr>
-<td>Date of Birth(DOB)</td>
+<th>Date of Birth(DOB)</th>
 <td>
 <select name="BirthDay" id="Birthday_Day">
 <option value="-1">Day:</option>
@@ -195,38 +195,38 @@ Female
 </tr>
 <!------------------------- Address ---------------------------------->
 <tr>
-<td>Address<br /><br /><br /></td>
+<th>Address<br /><br /><br /></th>
 <td><textarea name="Address" rows="10" cols="50"></textarea></td>
 </tr>
 <!-------------------------- City ------------------------------------->
 <tr>
-<td>City</td>
+<th>City</th>
 <td><input type="text" name="City" maxlength="50" placeholder="Anantapuramu"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!----- -------------------- Pin Code-------------------------------------->
 <tr>
-<td>Pin Code</td>
+<th>Pin Code</th>
 <td><input type="Number" name="PinCode" maxlength="6" placeholder="515001"/>
 (Max 6 Numbers Allowed)
 </td>
 </tr>
 <!---------------------------- State ----------------------------------->
 <tr>
-<td>State</td>
+<th>State</th>
 <td><input type="text" name="State" maxlength="50" placeholder="Andhra Pradesh"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!------------------------------ Country --------------------------------->
 <tr>
-<td>Country</td>
+<th>Country</th>
 <td><input type="text" name="Country" placeholder="India" /></td>
 </tr>
 <!------------------------- Hobbies -------------------------------------->
 <tr>
-<td>Hobbies <br /><br /><br /></td>
+<th>Hobbies <br /><br /><br /></th>
 <td>
 <input type="checkbox" name="HobbyDrawing" value="Drawing" />
 Drawing
@@ -245,7 +245,7 @@ Others
 </tr>
 <!-----------------------Qualification---------------------------------------->
 <tr>
-<td>Qualification <br /><br /><br /></td>
+<th>Qualification <br /><br /><br /></th>
 <td>
 <br/>
 <input type="checkbox" name="HighSchool" value="High School" />
@@ -262,7 +262,7 @@ Phd
 </tr>
 <!---------------------------- Courses ----------------------------------->
 <tr>
-<td>Courses<br />Applied For</td>
+<th>Courses<br />Applied For</th>
 <td>
 <input type="radio" name="CourseBCA" value="BCA">
 BCA(Bachelor of Computer Applications)<br>
