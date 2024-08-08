@@ -56,21 +56,21 @@ input[type=submit], input[type=reset]{
 <#caption style="text-align: left">Reg Form</caption> 
 <!--------------------- First Name ------------------------------------------>
 <tr>
-<th id="Myth">First Name</th>
+<#th id="Myth">First Name</th>
 <td><input type="text" name="FirstName" maxlength="50" placeholder="Cloud Gen Softech Systems" />
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!------------------------ Last Name --------------------------------------->
 <tr>
-<th id="Myth">Last Name</th>
+<#th id="Myth">Last Name</th>
 <td><input type="text" name="LastName" maxlength="50" placeholder="Ravindra"/>
 (Max 50 Characters Allowed)
 </td>
 </tr>
 <!-------------------------- Email ID ------------------------------------->
 <tr>
-<th id="Myth">Email ID</th>
+<#th id="Myth">Email ID</th>
 <td><input type="email" name="EmailID" maxlength="100" placeholder="support@cloudgen.in"/></td>
 </tr>
 <!-------------------------- Mobile Number ------------------------------------->
