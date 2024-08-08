@@ -13,7 +13,7 @@ h2{
  text-align: center; 
  text-decoration: underline
 }
-table, th. td {
+table, th, td {
  font-family: verdana; 
  color:white; 
  font-size: 16px; 
