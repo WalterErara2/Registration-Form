@@ -13,7 +13,7 @@ h2{
  text-align: center; 
  text-decoration: underline
 }
-table, th, td {
+table {
  font-family: verdana; 
  color:white; 
  font-size: 16px; 
@@ -23,8 +23,16 @@ table, th, td {
  border-collapse: collapse; 
  border: 4px solid #000000;
  border-style: dashed;
-  
 }
+
+th {
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+}
+
 table.inner{
  border: 10px
 }
