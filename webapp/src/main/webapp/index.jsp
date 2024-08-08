@@ -53,6 +53,7 @@ input[type=submit], input[type=reset]{
 <body>
 <h2>Student Registration Form Using Table in HTML</h3>
 <table align="center" cellpadding = "10">
+<caption style="text-align: left">Reg Form</caption> 
 <!--------------------- First Name ------------------------------------------>
 <tr>
 <th id="Myth">First Name</th>
