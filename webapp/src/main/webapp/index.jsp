@@ -1,5 +1,5 @@
-<!DOCTYPE html xml:lang>
-<html>
+<!DOCTYPE html>
+<html xml:lang>
 <head>
 <title>Student Registration Form Using Table in HTML</title>
 <style>
